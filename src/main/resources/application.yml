@@ -1,0 +1,23 @@
+micronaut:
+  application:
+    name: jagent
+
+netty:
+  default:
+    allocator:
+      max-order: 3
+
+schedule:
+  default: 45s
+  ec2: 30s
+  rds: 30s
+  cost: 15m
+
+zabbix:
+  user: Admin
+  pass: 22146522
+
+aws:
+  ec2:
+    zabbix: 34.200.134.102
+    port: 10051
